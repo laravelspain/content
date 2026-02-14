@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-03-02",
+    "title": "Laracon EU 2026",
+    "location": "Amsterdam, Países Bajos",
+    "description": "La conferencia Laravel más grande de Europa. Dos días de charlas, talleres y networking en el Passenger Terminal Amsterdam.",
+    "tag": "Conferencia",
+    "tagColor": "bg-spain-red/10 text-spain-red"
+  },
+  {
+    "date": "2026-04-20",
+    "title": "Codemotion Madrid 2026",
+    "location": "La Nave, Madrid, España",
+    "description": "Conferencia tech multidisciplinar con tracks de PHP, Laravel y desarrollo web. Dos días de charlas y networking en Madrid.",
+    "tag": "Conferencia",
+    "tagColor": "bg-spain-red/10 text-spain-red",
+    "future": true
+  },
+  {
+    "date": "2026-05-22",
+    "title": "AFUP Day 2026",
+    "location": "Lille / Bordeaux / París / Lyon",
+    "description": "Evento PHP distribuido en 4 ciudades francesas simultáneamente. Charlas sobre Laravel y ecosistema PHP.",
+    "tag": "Presencial",
+    "tagColor": "bg-green-500/10 text-green-600 dark:text-green-400"
+  },
+  {
+    "date": "2026-06-08",
+    "title": "International PHP Conference Berlin",
+    "location": "Berlín, Alemania / Online",
+    "description": "5 días de conferencia PHP híbrida con tracks dedicados a Laravel, seguridad y DevOps.",
+    "tag": "Híbrido",
+    "tagColor": "bg-purple-500/10 text-purple-600 dark:text-purple-400"
+  }
+]
