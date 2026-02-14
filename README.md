@@ -1,4 +1,4 @@
-# Laravel Spain — Datos
+# Laravel Spain. Datos
 
 Repositorio público con los datos que alimentan [laravelspain.com](https://laravelspain.com): eventos, paquetes y ofertas de empleo del ecosistema Laravel en España y Europa.
 
