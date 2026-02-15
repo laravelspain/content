@@ -1,24 +1,10 @@
 [
   {
-    "name": "livewire/livewire",
-    "description": "Framework full-stack para construir interfaces dinámicas sin salir de Laravel.",
-    "stars": 22500,
-    "language": "PHP",
-    "url": "https://github.com/livewire/livewire"
-  },
-  {
     "name": "edulazaro/laractions",
     "description": "Patrón basado en acciones para encapsular lógica de negocio en clases reutilizables, síncronas o asíncronas.",
     "stars": 12,
     "language": "PHP",
     "url": "https://github.com/edulazaro/laractions"
-  },
-  {
-    "name": "filamentphp/filament",
-    "description": "Panel de administración elegante y potente para aplicaciones Laravel.",
-    "stars": 19000,
-    "language": "PHP",
-    "url": "https://github.com/filamentphp/filament"
   },
   {
     "name": "edulazaro/larallow",
@@ -28,25 +14,11 @@
     "url": "https://github.com/edulazaro/larallow"
   },
   {
-    "name": "barryvdh/laravel-debugbar",
-    "description": "Barra de depuración integrada para Laravel con queries, rutas, vistas y más.",
-    "stars": 17400,
-    "language": "PHP",
-    "url": "https://github.com/barryvdh/laravel-debugbar"
-  },
-  {
     "name": "edulazaro/laratext",
     "description": "Gestión y traducción automática de cadenas de texto usando servicios de IA como OpenAI y Google Translate.",
     "stars": 6,
     "language": "PHP",
     "url": "https://github.com/edulazaro/laratext"
-  },
-  {
-    "name": "barryvdh/laravel-ide-helper",
-    "description": "Genera archivos helper para autocompletado en PHPStorm y otros IDEs.",
-    "stars": 14200,
-    "language": "PHP",
-    "url": "https://github.com/barryvdh/laravel-ide-helper"
   },
   {
     "name": "edulazaro/larascraper",
@@ -56,25 +28,11 @@
     "url": "https://github.com/edulazaro/larascraper"
   },
   {
-    "name": "pestphp/pest",
-    "description": "Framework de testing elegante para PHP con sintaxis expresiva y minimalista.",
-    "stars": 9500,
-    "language": "PHP",
-    "url": "https://github.com/pestphp/pest"
-  },
-  {
     "name": "edulazaro/larawards",
     "description": "Sistema de logros, insignias y trofeos con múltiples niveles para gamificación en Laravel.",
     "stars": 7,
     "language": "PHP",
     "url": "https://github.com/edulazaro/larawards"
-  },
-  {
-    "name": "spatie/laravel-medialibrary",
-    "description": "Asocia archivos a modelos Eloquent con conversiones de imágenes y colecciones.",
-    "stars": 5800,
-    "language": "PHP",
-    "url": "https://github.com/spatie/laravel-medialibrary"
   },
   {
     "name": "edulazaro/laralang",
@@ -84,13 +42,6 @@
     "url": "https://github.com/edulazaro/laralang"
   },
   {
-    "name": "spatie/laravel-backup",
-    "description": "Crea copias de seguridad de tu aplicación Laravel incluyendo base de datos y archivos.",
-    "stars": 5600,
-    "language": "PHP",
-    "url": "https://github.com/spatie/laravel-backup"
-  },
-  {
     "name": "edulazaro/laracontext",
     "description": "Contexto global ligero con consultas scoped basadas en valores contextuales compartidos.",
     "stars": 5,
@@ -98,38 +49,10 @@
     "url": "https://github.com/edulazaro/laracontext"
   },
   {
-    "name": "nunomaduro/larastan",
-    "description": "Extensión de PHPStan para Laravel. Análisis estático adaptado al framework.",
-    "stars": 5600,
-    "language": "PHP",
-    "url": "https://github.com/nunomaduro/larastan"
-  },
-  {
     "name": "edulazaro/larakeep",
     "description": "Keepers para procesar valores de campos de modelos de forma limpia, sin ensuciar observers.",
     "stars": 4,
     "language": "PHP",
     "url": "https://github.com/edulazaro/larakeep"
-  },
-  {
-    "name": "spatie/laravel-activitylog",
-    "description": "Registra la actividad de tu aplicación. Ideal para auditoría y seguimiento de cambios.",
-    "stars": 5400,
-    "language": "PHP",
-    "url": "https://github.com/spatie/laravel-activitylog"
-  },
-  {
-    "name": "laravel/sanctum",
-    "description": "Sistema de autenticación ligero para SPAs, apps móviles y APIs con tokens.",
-    "stars": 2800,
-    "language": "PHP",
-    "url": "https://github.com/laravel/sanctum"
-  },
-  {
-    "name": "inertiajs/inertia-laravel",
-    "description": "Adaptador de Inertia.js para Laravel. Crea SPAs sin API usando controladores clásicos.",
-    "stars": 2100,
-    "language": "PHP",
-    "url": "https://github.com/inertia-laravel"
   }
 ]
