@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "Desarrollador Laravel",
+    "company": "AndorraDev",
+    "location": "Andorra",
+    "type": "Remoto",
+    "typeColor": "bg-green-500/10 text-green-600 dark:text-green-400",
+    "contract": "Contractor",
+    "contractColor": "bg-cyan-500/10 text-cyan-600 dark:text-cyan-400",
+    "salary": "30€/h",
+    "description": "Desarrollador Laravel con Vue, Livewire y Tailwind. Contrato de 3 meses.",
+    "url": "https://andorradev.com/contacto"
+  }
+]
