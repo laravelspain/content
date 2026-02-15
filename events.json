@@ -12,6 +12,7 @@
     "title": "Codemotion Madrid 2026",
     "location": "La Nave, Madrid, España",
     "description": "Conferencia tech multidisciplinar con tracks de PHP, Laravel y desarrollo web. Dos días de charlas y networking en Madrid.",
+    "url": "https://conferences.codemotion.com/madrid/",
     "tag": "Conferencia",
     "tagColor": "bg-spain-red/10 text-spain-red",
     "future": true
