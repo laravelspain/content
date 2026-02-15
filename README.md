@@ -1,12 +1,13 @@
 # Laravel Spain. Datos
 
-Repositorio público con los datos que alimentan [laravelspain.com](https://laravelspain.com): eventos, paquetes y ofertas de empleo del ecosistema Laravel en España y Europa.
+Repositorio público con los datos que alimentan [laravelspain.com](https://laravelspain.com): eventos, paquetes, ofertas de empleo y artículos del blog del ecosistema Laravel en España y Europa.
 
 Cualquier persona puede contribuir abriendo un Pull Request. Los cambios se reflejan automáticamente en la web una vez aprobados.
 
 ## Enlaces
 
 - [Web](https://laravelspain.com)
+- [Blog](https://laravelspain.com/blog)
 - [Eventos](https://laravelspain.com/eventos)
 - [Paquetes](https://laravelspain.com/paquetes)
 - [Empleos](https://laravelspain.com/empleos)
@@ -14,22 +15,83 @@ Cualquier persona puede contribuir abriendo un Pull Request. Los cambios se refl
 
 ## Estructura del repositorio
 
-| Archivo          | Contenido                                                        |
-|------------------|------------------------------------------------------------------|
-| `events.json`    | Eventos y conferencias relacionados con Laravel, PHP y desarrollo web |
-| `packages.json`  | Paquetes destacados del ecosistema Laravel                       |
-| `jobs.json`      | Ofertas de empleo Laravel en España                              |
+```
+├── events.json      # Eventos de la comunidad
+├── packages.json    # Paquetes destacados
+├── jobs.json        # Ofertas de empleo
+└── blog/            # Artículos del blog (Markdown + frontmatter YAML)
+    ├── mi-primer-post.md
+    └── laravel-12-novedades.md
+```
 
-## Cómo contribuir
+## Blog. Formato de los posts
 
-1. Haz un **fork** de este repositorio.
-2. Edita el archivo JSON correspondiente respetando el formato documentado más abajo.
-3. Abre un **Pull Request** con una descripción breve del cambio (por ejemplo: "Añadir evento X" o "Actualizar estrellas de paquete Y").
-4. El PR será revisado antes de hacer merge.
+Los archivos `.md` dentro de `/blog` se publican automáticamente en laravelspain.com/blog.
 
-> Si no estás seguro de algún campo, consulta las tablas de formato o abre un issue.
+### Nombre del archivo
+- El nombre del archivo (sin `.md`) se usa como **slug** de la URL.
+- Usar kebab-case, sin tildes ni caracteres especiales.
+- Ejemplo: `laravel-12-novedades.md` → `laravelspain.com/blog/laravel-12-novedades`
 
-## Formato de los archivos
+### Frontmatter obligatorio
+
+```yaml
+---
+title: "Título del artículo"
+date: "2026-02-15"
+author: "Nombre Apellido"
+description: "Resumen corto del artículo (1-2 frases). Se muestra en el listado."
+---
+```
+
+### Frontmatter opcional
+
+```yaml
+---
+tags: ["laravel", "novedades"]    # Se muestran como pills/badges
+image: "https://..."              # Imagen para Open Graph (compartir en redes)
+---
+```
+
+### Cuerpo del post
+- Markdown estándar (headings, listas, código, links, imágenes, blockquotes, etc.)
+- Se puede usar HTML inline si es necesario
+- El contenido se renderiza con estilos `prose` de Tailwind Typography
+- Escribir en **español**
+
+### Ejemplo completo
+
+```markdown
+---
+title: "Novedades de Laravel 12"
+date: "2026-02-15"
+author: "Taylor Otwell"
+description: "Un repaso a las principales novedades que trae Laravel 12."
+tags: ["laravel", "novedades"]
+---
+
+## Introducción
+
+Laravel 12 llega cargado de novedades...
+
+### Nuevo sistema de routing
+
+El nuevo router es un 40% más rápido:
+
+```php
+Route::get('/posts', function () {
+    return Post::all();
+});
+```
+
+> Esta es una cita destacada sobre el framework.
+
+## Conclusión
+
+Laravel sigue evolucionando...
+```
+
+## Formato de los archivos JSON
 
 ### events.json
 
@@ -82,6 +144,22 @@ Valores válidos para `tagColor` (eventos) y `typeColor` (empleos):
 | Online      | `bg-blue-500/10 text-blue-600 dark:text-blue-400`     |
 | Híbrido     | `bg-purple-500/10 text-purple-600 dark:text-purple-400` |
 | Remoto      | `bg-green-500/10 text-green-600 dark:text-green-400`  |
+
+## Cómo contribuir
+
+1. Haz un **fork** de este repositorio.
+2. Crea tu archivo `.md` en `/blog` o edita los JSON correspondientes.
+3. Abre un **Pull Request** con una descripción breve del cambio.
+4. El PR será revisado antes de hacer merge.
+
+> Si no estás seguro de algún campo, consulta las tablas de formato o abre un issue.
+
+## Reglas generales
+
+- Todo el contenido en **español**
+- Las fechas siempre en formato ISO: `YYYY-MM-DD`
+- No incluir contenido promocional o spam
+- Los posts de blog deben estar relacionados con Laravel, PHP o el ecosistema
 
 ## Licencia
 
