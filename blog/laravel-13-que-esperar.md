@@ -6,8 +6,6 @@ description: "Repaso completo a las novedades confirmadas de Laravel 13: requisi
 tags: ["laravel", "novedades", "php", "laravel-13"]
 ---
 
-## Laravel 13 está en camino
-
 Siguiendo el ciclo anual de versiones mayores, Laravel 13 está previsto para el **primer trimestre de 2026**. Como ya pasó con Laravel 12, esta versión prioriza la estabilidad y la modernización interna sobre cambios revolucionarios. Pero eso no significa que no traiga cosas interesantes.
 
 Vamos a repasar todo lo que se sabe hasta ahora, basándonos en los cambios que ya están en la rama de desarrollo.
