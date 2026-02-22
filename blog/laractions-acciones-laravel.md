@@ -1,5 +1,5 @@
 ---
-title: "Laractions: cómo implementar el patrón Action en Laravel"
+title: "Cómo implementar el patrón Action en Laravel"
 date: "2026-02-22"
 author: "Laravel Spain"
 description: "Guía práctica del paquete Laractions para organizar la lógica de negocio en clases Action reutilizables, con soporte para colas, modelos, trazabilidad y testing."
