@@ -220,7 +220,7 @@ class SendWelcomeEmailAction extends Action
 }
 ```
 
-Laractions genera el Job automáticamente — tú solo defines la lógica en `handle()`.
+Laractions genera el Job automáticamente - tú solo defines la lógica en `handle()`.
 
 ## Actores y trazabilidad
 
