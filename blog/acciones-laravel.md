@@ -306,10 +306,10 @@ php artisan list:actions
 
 Las Actions encajan bien cuando:
 
-- **El controlador crece demasiado**. Si un método tiene más de 20-30 líneas de lógica de negocio, es candidato a extraer en una Action.
-- **Reutilizas operaciones**. La misma lógica se necesita en un controlador web, un endpoint API y un comando Artisan.
-- **Quieres tests unitarios limpios**. Es más fácil testear `CreateInvoiceAction` aislada que un controlador completo.
-- **Necesitas auditoría**. La trazabilidad registra quién hizo qué y sobre qué modelo.
+- **El controlador crece demasiado**: si un método tiene más de 20-30 líneas de lógica de negocio, es candidato a extraer en una Action.
+- **Reutilizas operaciones**: la misma lógica se necesita en un controlador web, un endpoint API y un comando Artisan.
+- **Quieres tests unitarios limpios**: es más fácil testear `CreateInvoiceAction` aislada que un controlador completo.
+- **Necesitas auditoría**: la trazabilidad registra quién hizo qué y sobre qué modelo.
 
 Y no las necesitas cuando la lógica es trivial (un simple CRUD sin reglas de negocio) o cuando un Event + Listener ya cubre el caso.
 
